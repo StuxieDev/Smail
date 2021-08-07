@@ -20,7 +20,7 @@ shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/
 shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/mailreg", "/disk/Smail/Admin/mailreg")
 shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/mailregsilent", "/disk/Smail/Admin/mailregsilent")
 shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/mailreq", "/disk/Smail/Admin/mailreq")
-shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/mhelp, "/disk/Smail/Admin/mhelp")
+shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/mhelp", "/disk/Smail/Admin/mhelp")
 shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/rbt", "/disk/Smail/Admin/rbt")
 shell.run("wget", "https://raw.githubusercontent.com/StuxieDev/Smail/main/Admin/startup", "/disk/Smail/Admin/startup")
 print("Downloaded Smail Admin")
