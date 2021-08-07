@@ -17,10 +17,9 @@ if fs.isDir('/mem/autorun') then
 		end
 	end
 end
-local nativeTerm = term.native or term
+local nativeTerm = term
 
 local function invoke(sMethod, ...)
-nativeTerm[sMethod](...)
 for k,sSide in pairs(redstone.getSides()) do
   if peripheral.isPresent(sSide) and peripheral.getType(sSide) == "monitor" then
    peripheral.call(sSide, sMethod, ...)
@@ -38,5 +37,6 @@ term.clearLine = function() invoke("clearLine") end
 nativeTerm.clear()
 nativeTerm.setCursorPos(1, 1)
 print("Smail - Server")
+nativeTerm.setCursorPos(1, 2)
 print("This is computer number " .. os.getComputerID())
 shell.run("mailserv")
